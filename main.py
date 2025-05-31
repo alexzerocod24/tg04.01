@@ -3,7 +3,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 
 API_TOKEN = '7803175828:AAH73o1QVOZ3f_kHk0M-ICKWZ0luYXq0GhU'
 
-# Клавиатура с кнопками
 keyboard = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton("Привет"), KeyboardButton("Пока")]
@@ -36,7 +35,7 @@ if __name__ == '__main__':
 
 
 
-API_TOKEN = '7803175828:AAH73o1QVOZ3f_kHk0M-ICKWZ0luYXq0GhU'
+
 
 
 
